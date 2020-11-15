@@ -19,14 +19,14 @@
 
 <body>
     <div class="container noselect">
-        <div class="notification hidden" id="notif">Check the News Tab for information about news/changes with CSGOClicker</div>
+        <div class="notification hidden" id="notif">点击news选项以检查该应用的最新消息</div>
            <div class="navbar">
             <ul>
                 <li>
                     <a href="https://KingofKFCJamal.github.io/CaseClicker" class="headerLogo"></a>
                 </li>
                 <div class="settings"></div>
-                <div class="about">About</div>
+                <div class="about">关于</div>
 				<div class="profile"></div>
 				<div class="profileavatar"></div>
 				</a>
@@ -34,12 +34,12 @@
         </div>
         <div class="settingsList hidden">
             <li>
-                <h1>SETTINGS</h1>
+                <h1>设置</h1>
             </li>
 			<div class="test">
                     &nbsp;&nbsp;
                     <b>
-					<font size="56" style="color:white;">Upload Avatar (JPEG/PNG):</font>
+					<font size="56" style="color:white;">上传一个头像 (JPEG/PNG):</font>
                         <input type="file" id="bannerImg"  /> 
 						<div class="tableCanner">
 						<img src="" id="tableBanner" width="70" height="70"/>
@@ -51,24 +51,24 @@
 				<div class="test2">
                     &nbsp;&nbsp;
                     <b>
-						<font size="56" style="color:white;">Enter Username:</font>
+						<font size="56" style="color:white;">输入用户名:</font>
                         <input type="text" id="username" name="username" value=""> 
-						<input type="submit" value="Submit">
-						<button id="save">Save</button>
+						<input type="submit" value="提交">
+						<button id="save">保存</button>
                     </b>
                     <br>
                 </div>
             <div class="audio">
 				<div class="pop">
 				&nbsp;&nbsp;
-			<input type="checkbox" id="popupCheckbox"><b><font size="56" style="color:white;">Disable Popup</font></b>
+			<input type="checkbox" id="popupCheckbox"><b><font size="56" style="color:white;">关闭弹出</font></b>
 				</div>
                 <div class="sg">
                     &nbsp;&nbsp;
                     <audio id="startgame" src="sounds/start-game.mp3" type="audio/mp3"></audio>
                     <input type="checkbox" id="lostCheckbox">
                     <b>
-                        <font size="56" style="color:white;">Disable/Enable Lost Sound</font>
+                        <font size="56" style="color:white;">禁用/启用loss 音效</font>
                     </b>
                     <br>
                 </div>
@@ -77,7 +77,7 @@
                     <audio id="botentered" src="sounds/new-item.mp3" type="audio/mp3"></audio>
                     <input type="checkbox" id="botCheckbox">
                     <b>
-                        <font size="56" style="color:white;">Disable/Enable New Opponent Sound</font>
+                        <font size="56" style="color:white;">禁用/启用New Opponent 音效</font>
                     </b>
                     <br>
                 </div>
@@ -86,7 +86,7 @@
                     <audio id="youwon" src="sounds/win-pot.mp3" type="audio/mp3"></audio>
                     <input type="checkbox" id="wonCheckbox">
                     <b>
-                        <font size="56" style="color:white;">Disable/Enable Won Sound</font>
+                        <font size="56" style="color:white;">禁用/启用 Won 音效</font>
                     </b>
                     <br>
                 </div>
@@ -95,7 +95,7 @@
                     <audio id="accepted" src="sounds/click.wav" type="audio/wav"></audio>
 					<input type="checkbox" id="acceptedCheckbox">
                     <b>
-                        <font size="56" style="color:white;">Disable/Enable Accepted Sound</font>
+                        <font size="56" style="color:white;">禁用/启用 Accepted 音效</font>
                     </b>
                     <br>
                 </div>
@@ -104,7 +104,7 @@
                     <audio id="menu" src="sounds/menuclick.wav" type="audio/wav"></audio>
 					<input type="checkbox" id="menuCheckbox">
                     <b>
-                        <font size="56" style="color:white;">Disable/Enable Menu Sound</font>
+                        <font size="56" style="color:white;">禁用/启用 Menu 音效</font>
                     </b>
                     <br>
                 </div>
@@ -113,17 +113,16 @@
                     <audio id="unbox" src="sounds/itemreveal.mp3" type="audio/mp3"></audio>
                     <input type="checkbox" id="unboxCheckbox">
                     <b>
-                        <font size="56" style="color:white;">Disable/Enable Unbox Sound</font>
+                        <font size="56" style="color:white;">禁用/启用 Unbox 音效</font>
                     </b>
                 </div> 
             </div>
-            <div class="clearGameState">Clear Game Save</div>
+            <div class="clearGameState">清除游戏存档</div>
         </div>
         <div class="aboutContainer">
             <div class="aboutInfo">
-                <div class="aboutHeader">Welcome to CaseClicker.</div>
-                <div class="aboutBody">CaseClicker is an incremental clicker game based around csgo and the jackpot/skin community. The goal is
-                    to open cases and get rich.</div>
+                <div class="aboutHeader">欢迎来到 CaseClicker.</div>
+                <div class="aboutBody">CaseClicker 是一个基于csgo和jackpot/skin社区的点击小游戏。它的目标是通过开箱致富。（本人仅对该游戏进行了汉化，原版GitHub地址：https://github.com/KingofKFCJamal/CaseClicker 由于水平有限，难免有疏忽和bug。）下面是原作者的一些信息</div>
                 <div class="aboutDevelopers">
                     <div class="aboutDev">
                         <a class="aboutDevName" href="https://steamcommunity.com/id/bnned">banned</a>
@@ -229,10 +228,10 @@
             </div>
             <div class="right">
                 <div class="mainInfo">
-                    <div class="mainInfoLabel wallet">Wallet:
+                    <div class="mainInfoLabel wallet">钱包:
                         <span class="money" id="money"></span>
                     </div>
-                    <div class="mainInfoLabel inv" id="invSpace">Inventory Space:
+                    <div class="mainInfoLabel inv" id="invSpace">物品空间:
                         <span class="inventorySpace" id="inventorySpace"></span>
                         <div class="mainInfoLabelWarning tt" data-tt="Inventory over max capacity.">
                             <i class="fa fa-exclamation-triangle"></i>
@@ -240,9 +239,9 @@
                     </div>
                 </div>
                 <div class="tabContainer">
-                    <div class="tab active" id="inventoryTab">Inventory</div>
-                    <div class="tab" id="upgradeTab">Shop</div>
-                    <div class="tab" id="caseTab">Case</div>
+                    <div class="tab active" id="inventoryTab">物品</div>
+                    <div class="tab" id="upgradeTab">商店</div>
+                    <div class="tab" id="caseTab">箱子</div>
                     <div class="tab" id="jackpotTab">Jackpot</div>
                     <div class="tab" id="coinTab">Coin Flip</div>
                     <div class="tab" id="newsTab">News</div>
@@ -371,7 +370,7 @@
 						Fixed cheating (rip Cheating videos :9)
                     </div>
                     <div class="tradeButtonContainer">
-                        <div class="tradeButton" id="acceptButton">ACCEPT</div>
+                        <div class="tradeButton" id="acceptButton">炼金</div>
                     </div>
                 </div>
             </div>
