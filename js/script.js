@@ -11,7 +11,7 @@ if (localStorage.getItem("username") === null) {
 }
 var useravatar = localStorage.getItem('imgData');
 if (localStorage.getItem("imgData") === null) {
-	localStorage.setItem("imgData" , "../images/ICK2lr1.jpg")
+	localStorage.setItem("imgData" , "./images/ICK2lr1.jpg")
 }
 
 var currentCase = "case1";
@@ -23046,7 +23046,7 @@ if (localStorage.getItem("username") === null) {
 }
 var useravatar = localStorage.getItem('imgData');
 if (localStorage.getItem("imgData") === null) {
-	localStorage.setItem("imgData" , "../images/ICK2lr1.jpg")
+	localStorage.setItem("imgData" , "./images/ICK2lr1.jpg")
 }
 $(".profileavatar").html('<img src="' + useravatar + '" width="50" height="50">');
 $(".profile").html("Welcome " + username);
