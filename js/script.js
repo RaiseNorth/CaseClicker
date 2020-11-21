@@ -23589,7 +23589,7 @@ var jackpotAI = {
 	bot28: ["Bio", 8, "https://i.imgur.com/acTRiBk.jpg"],
 	bot29: ["Tiny", 8, "https://i.imgur.com/2aOas2H.jpg"],
 	bot30: ["Toshiyuki", 8, "https://i.imgur.com/rNszEvF.jpg"],
-	bot31: ["King of KFC Jamal", 9, "https://i.imgur.com/XhFlH2S.jpg"]
+	bot31: ["博弈之王·詹升北", 9, "./images/king_RN.jpg"]
 };
 
 var jackpotPots = {
